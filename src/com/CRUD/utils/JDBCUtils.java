@@ -1,4 +1,4 @@
-package com.CRUD.utils;
+package com.crud.utils;
 
 import java.io.InputStream;
 import java.lang.reflect.Field;
@@ -16,7 +16,8 @@ public class JDBCUtils {
      *
      * @Description 获取数据库的连接
      * @return
-     * @throws Exception
+     * @throws Exception，用 【throws】 而不是 try catch 是因为在使用这个函数的时候是封装在 try catch 中的，
+     *                      如果这里使用 try catch，就把异常处理掉了，那调用这个函数的地方就会出现问题
      */
     public static Connection getConnection() throws Exception {
         // 1.读取配置文件中的4个基本信息
@@ -216,7 +217,7 @@ public class JDBCUtils {
             for(int i = 0; i < args.length; i++){
                 ps.setObject(i + 1, args[i]);//小心参数声明错误！！，SQL 的占位符是从 1 开始的，数组是从 0 开始的
             }
-            //4.执行
+            //4.执行,executeUpdate 的返回值
            return ps.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();

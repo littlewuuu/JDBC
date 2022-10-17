@@ -1,6 +1,6 @@
-package com.CRUD.ex;
+package com.crud.ex;
 
-import com.CRUD.utils.JDBCUtils;
+import com.crud.utils.JDBCUtils;
 import org.junit.Test;
 
 import java.sql.Connection;

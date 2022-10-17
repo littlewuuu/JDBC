@@ -1,6 +1,6 @@
-package com.CRUD.ex.ex2;
+package com.crud.ex.ex2;
 
-import com.CRUD.utils.JDBCUtils;
+import com.crud.utils.JDBCUtils;
 import org.junit.Test;
 
 import java.util.Scanner;

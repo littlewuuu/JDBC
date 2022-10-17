@@ -1,4 +1,4 @@
-package com.CRUD.datas;
+package com.crud.datas;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package com.CRUD.preparedstatement_;
+package com.crud.preparedstatement_;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;
@@ -7,8 +7,8 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.Scanner;
 
-import com.CRUD.datas.User;
-import com.CRUD.utils.JDBCUtils;
+import com.crud.datas.User;
+import com.crud.utils.JDBCUtils;
 import org.junit.Test;
 
 

@@ -1,4 +1,4 @@
-package com.CRUD.preparedstatement_;
+package com.crud.preparedstatement_;
 
 import java.io.InputStream;
 import java.sql.Connection;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
 
-import com.CRUD.utils.JDBCUtils;
+import com.crud.utils.JDBCUtils;
 import org.junit.Test;
 
 

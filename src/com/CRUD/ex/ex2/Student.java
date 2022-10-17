@@ -1,4 +1,4 @@
-package com.CRUD.ex.ex2;
+package com.crud.ex.ex2;
 
 public class Student {
     private int flowID;
