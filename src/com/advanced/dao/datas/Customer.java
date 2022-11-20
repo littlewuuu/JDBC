@@ -1,9 +1,8 @@
-package com.crud.datas;
+package com.advanced.dao.datas;
 
 import java.sql.Date;
 
-/**
- * @Description  对应数据库中的 customer 表
+/*
  * ORM编程思想  （object relational mapping）
  * 一个数据表对应一个java类
  * 表中的一条记录对应java类的一个对象

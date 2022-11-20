@@ -1,4 +1,4 @@
-package com.crud.datas;
+package com.advanced.dao.datas;
 
 import java.sql.Date;
 

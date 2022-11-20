@@ -90,7 +90,7 @@ public class JDBCUtils {
     }
 
     /**
-     * @Description  返回多条查询信息，多表通用
+     * @Description  返回多条查询信息，多表通用，所以使用泛型方法
      * @param clazz
      * @param sql
      * @param args
